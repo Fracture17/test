@@ -1,6 +1,6 @@
 sudo: required
 services:
-  - dcker
+  - docker
 
 scripts:
   - docker build -t fracture17/node .
